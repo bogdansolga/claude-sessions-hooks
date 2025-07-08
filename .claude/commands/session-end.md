@@ -21,9 +21,11 @@ End the current development session by:
     - Todo summary:
         * Total tasks completed/remaining
         * List all completed tasks
-        * List any incomplete tasks with status
+        * List any incomplete tasks, with their status and the reason why they were not completed
 
+    The description must be thorough enough that another developer (or AI) can understand everything that was changed and added, without reading the entire session.
+    
 4. Empty the `.claude/sessions/.current-session` file (don't remove it, just clear its contents)
 5. Inform the user the session has been documented
+6. Generate a Git commit with a thorough description of the performed changes
 
-The description must be thorough enough that another developer (or AI) can understand everything that was changed and added, without reading the entire session.
