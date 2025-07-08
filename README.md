@@ -1,2 +1,2 @@
-# claude-sessions-hooks
-A few Claude Code hooks for managing sessions
+# claude-sessions-commands
+A few Claude Code commands for managing sessions and commits
